@@ -1,0 +1,28 @@
+
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+div.sel {
+    cursor:pointer;
+}
+div.block {
+    display:inline-block;
+}
+.spacer {
+    height:80px;
+    width:80px;
+    display: inline-block;
+}
+.player {
+    font-size:16pt;
+    text-shadow: 2px 2px 5px limegreen;
+}
+.cpu {
+    font-size:16pt;
+    text-shadow: 2px 2px 5px red;
+}
